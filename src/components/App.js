@@ -147,12 +147,12 @@ function App() {
 			<nav className="navbar fixed-top mx-3">
 				<a
 					className="navbar-brand col-sm-3 col-md-2 mr-0 mx-4"
-					href="http://www.dappuniversity.com/bootcamp"
+					href="https://github.com/antyibvak"
 					target="_blank"
 					rel="noopener noreferrer"
 				>
 					<img src={logo} className="App-logo" alt="logo" />
-					Dapp University
+					NFT Project
 				</a>
 
 				{account ? (
@@ -170,11 +170,11 @@ function App() {
 			<main>
 				<Row className="my-3">
 					<Col className="text-center">
-						<h1 className="text-uppercase">Open Emojis</h1>
+						<h1 className="text-uppercase">Mandem Emojis</h1>
 						<p className="countdown">
 							{revealTime !== 0 && <Countdown date={currentTime + (revealTime - currentTime)} />}
 						</p>
-						<p>Welcome! Mint your free emoji (not including gas fees) on 11/04/21</p>
+						<p>Welcome! Mint your free emoji (not including gas fees) on 01/06/22</p>
 					</Col>
 				</Row>
 				<Row className="my-4">
